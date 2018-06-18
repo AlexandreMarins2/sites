@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+body{
+	font-family: 'Asap', sans-serif; /*Formata todos os elementos font visíveis na página*/
+	background:#F8EEE4; /*Especifica a cor de fundo do corpo da página*/
+}
+
+*{
+	margin:0; /*determina valor de margem de toda a página = 0*/
+	padding:0; /*determina valor de padding de toda a página = 0*/
+}
+
+.topo{
+	alignment-adjust:central;
+	background-color:#fed09f;
+	width:100%;
+	height:60px;
+	padding:10px 0px 10px 0px;
+	z-index:1000;
+}
+
+img.displayed {
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+	height:50px;
+	width:400px; 
+}
+
+logo{
+	alignment-adjust:central;
+}
+
+.pagina{
+	position:relative;
+	width:1280px;
+	height:480px;
+	background:#FCE0C2;
+	margin:auto;
+}
+
+.pagina .conteudo_pagina{
+	position:absolute;
+	width:100%;
+	height:400px;
+	margin-top:40px;
+}
+
+.pagina .titulo_pagina{
+	font-family: 'Asap', sans-serif;
+	font-size:20px;
+	color:#a15643;
+	font-weight:700;
+	padding-top:20px;
+	padding-left:30px;
+}
+
+
+.pagina .conteudo_pagina #box_1{
+	position:relative;
+	width:48%;
+	height:380px;
+	margin-left:1.5%;
+	margin-top:-25px;
+	background-color:#a15643;
+	float:left;
+}
+
+.pagina .conteudo_pagina #box_1 .titulo{
+	font-weight:700;
+	margin-left:40px;
+	font-size:15px;
+	margin-top:10px;		
+}
+
+.pagina .conteudo_pagina #box_1 .resultado{
+	margin-left:40px;
+	font-size:15px;
+}
+
+.pagina .conteudo_pagina #box_1 #nome{
+	font-family: 'Asap', sans-serif;
+	font-size:16px;
+	color:hsla(355,28%,92%,1.00);
+	float:right;
+	margin-right:40px;
+	margin-top:-30px;	
+}
+
+.pagina .conteudo_pagina #box_1 .resultado img{
+	width:15px;
+	height:15.5px;
+	float:right;
+	margin-right:330px;
+	margin-top:3px;
+}
+	
+.pagina .conteudo_pagina #box_2{
+	position:relative;
+	width:48%;
+	height:380px;
+	margin-left:1%;
+	margin-top:-25px;
+	background-color:#a15643;
+	float:left;
+}
+
+.barra_mapa{
+	width:100%;
+	height:40px;
+	background-color:#a15643;
+}
+
+section.feature-slider article {
+	pointer-events: none;
+	cursor: default;
+}
+
+.formulario{
+	font-family: 'Asap', sans-serif;
+	font-size:14px;
+	margin-left:43px;
+	margin-top:14px;
+}
+
+.botao {
+	margin-left:450px;
+		
+}
+

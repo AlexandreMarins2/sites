@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body{
+	font-family: 'Asap', sans-serif; /*Formata todos os elementos font visíveis na página*/
+	background:#F8EEE4; /*Especifica a cor de fundo do corpo da página*/
+}
+
+*{
+	margin:0; /*determina valor de margem de toda a página = 0*/
+	padding:0; /*determina valor de padding de toda a página = 0*/
+}
+
+.topo{
+	alignment-adjust:central;
+	background-color:#fed09f;
+	width:100%;
+	height:60px;
+	padding:10px 0px 10px 0px;
+	z-index:1000;
+}
+
+img.displayed {
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+	height:50px;
+	width:400px; 
+}
+
+logo{
+	alignment-adjust:central;
+}
+
+.pagina{
+	position:relative;
+	width:1280px;
+	height:460px;
+	background:#FCE0C2;
+	margin:auto;
+}
+
+.pagina .titulo_pagina{
+	font-family: 'Asap', sans-serif;
+	font-size:20px;
+	color:#a15643;
+	font-weight:700;
+	padding-top:20px;
+	padding-left:30px;
+}
+
+.pagina .conteudo_pagina #box_1{
+	position:relative;
+	background-color:#a15643;
+	width:97%;
+	height:350px;
+	margin-left:1.5%;
+	margin-top:35px;
+	float:left;
+}
+
+.pagina .conteudo_pagina #box_1 .imagem_pagina{
+	height:300px;
+	width:515px;
+	margin-left:30px;
+	margin-top:15px;
+	float:left;
+	margin-right:20px;
+	border:solid 10px ;
+	border-color:#F9E9D7;
+}
+
+.pagina .conteudo_pagina #box_1 .texto_pagina{
+	flot: left;
+	margin-right: 30px;
+	margin-left:30px;
+	margin-top:20px;
+	color: #F9E9D7;
+	font-size:15px;
+	
+}
+
