@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=devaice-width,inital-scale=1">
-        <title></title>
+        <title>Conhecendo A Verdade</title>
     <head/>
     <body>
         <?php
